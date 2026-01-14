@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.dist/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+.env/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# LAMMPS/IPS runtime outputs
+outdirs/
+lammps/
+trajectory/
+bond_*.lmps
+min.lmps
+md.lmps
+hydration.lammpstrj
+log.lammps
+*.lammpstrj

@@ -1,0 +1,209 @@
+minfile: "config/min.in"
+mdfile: "config/md0.in"
+bondsNum: 0
+bondLimits: 600
+tryNum: 2
+trylimit: 100
+
+equilibrium: true
+upperPlate: "up"
+upperSolvent: 
+  - 11
+  - 12
+upperMonomer: "config/tmc.lmps"
+upperFactor: 97
+
+lowerPlate: "be"
+lowerSolvent: 
+  - 13
+  - 14
+lowerMonomer: "config/mpd.lmps"
+lowerFactor: 258
+
+lammps: "lmp -sf gpu"
+outPath: "outdirs"
+lmprundir: "lammps"
+# Operation condition information 
+link: 
+  -
+    - nh,n
+    - c,c_1
+  -
+    - tnv,tns
+    - c,c_1
+
+    
+deletelink: 
+  - hn
+  - cl
+  - thn
+
+cutoff: 3.5
+
+charge: 
+  - 0
+  - 0
+intra: 
+  - true
+  - 1
+
+# Atom type information
+atoms:
+  be: 15
+  c: 1
+  c3: 11
+  c_1: 10
+  ca: 2
+  cl: 5
+  ha: 3
+  hc: 12
+  hn: 4
+  hn1: 9
+  hw: 14
+  n: 8
+  nh: 6
+  o: 7
+  ow: 13
+  tc: 19
+  tc2: 21
+  tca: 22
+  tcc: 20
+  th4: 24
+  tha: 23
+  thn: 25
+  tns: 27
+  tnu: 18
+  tnv: 26
+  to: 17
+  up: 16
+bonds:
+  c,ca: 4
+  c,cl: 5
+  c,o: 6
+  c3,c3: 15
+  c3,hc: 16
+  c_1,cl: 13
+  c_1,n: 9
+  c_1,o: 11
+  c_1,tns: 29
+  ca,c_1: 12
+  ca,ca: 1
+  ca,ha: 2
+  ca,n: 8
+  ca,nh: 3
+  hn,n: 10
+  hn,nh: 7
+  hw,ow: 17
+  n,hn1: 14
+  tc,to: 18
+  tc2,tcc: 23
+  tc2,th4: 24
+  tc2,tns: 27
+  tc2,tnv: 19
+  tca,tca: 25
+  tcc,tc: 22
+  tha,tca: 26
+  tns,thn: 28
+  tnu,tca: 20
+  tnv,thn: 21
+angles:
+  c,ca,ca: 4
+  c3,c3,c3: 22
+  c3,c3,hc: 23
+  c_1,ca,ca: 16
+  c_1,n,ca: 13
+  c_1,n,hn: 14
+  c_1,n,hn1: 21
+  c_1,tns,tc2: 45
+  c_1,tns,thn: 44
+  ca,c,o: 5
+  ca,c_1,n: 10
+  ca,c_1,o: 15
+  ca,ca,ca: 1
+  ca,ca,ha: 2
+  ca,ca,n: 9
+  ca,ca,nh: 3
+  ca,n,hn: 12
+  ca,n,hn1: 19
+  ca,nh,hn: 7
+  cl,c,o: 6
+  hc,c3,hc: 24
+  hn,n,hn1: 18
+  hn,nh,hn: 8
+  hw,ow,hw: 25
+  n,c_1,cl: 20
+  n,c_1,o: 11
+  o,c_1,cl: 17
+  o,c_1,tns: 43
+  tc,tcc,tc: 31
+  tc,tcc,tc2: 32
+  tc2,tns,thn: 40
+  tc2,tnu,tca: 26
+  tc2,tnv,thn: 27
+  ca,c_1,tns: 42
+  tca,tca,tca: 37
+  tca,tca,tha: 38
+  tca,tnu,thn: 28
+  tcc,tc,tcc: 30
+  tcc,tc2,th4: 35
+  tcc,tc2,tnv: 33
+  th4,tc2,tns: 41
+  th4,tc2,tnv: 34
+  thn,tnv,thn: 39
+  tns,tc2,tcc: 46
+  tnu,tca,tca: 36
+  to,tc,tcc: 29
+dihedrals:
+  c3,c3,c3,c3: 24
+  c3,c3,c3,hc: 26
+  c_1,n,ca,ca: 8
+  c_1,tns,tc2,tcc: 39
+  c_1,tns,tc2,th4: 40
+  ca,c_1,n,ca: 5
+  ca,ca,c,o: 4
+  ca,ca,c_1,cl: 9
+  ca,ca,c_1,o: 10
+  ca,ca,ca,c_1: 12
+  ca,ca,ca,ca: 2
+  ca,ca,ca,n: 11
+  ca,ca,n,hn: 6
+  ca,ca,n,hn1: 15
+  ca,n,c_1,cl: 18
+  ca,n,c_1,o: 17
+  cl,c,ca,ca: 1
+  ha,ca,ca,c_1: 13
+  ha,ca,ca,n: 14
+  hc,c3,c3,hc: 25
+  hn,n,c_1,ca: 19
+  hn,n,c_1,cl: 20
+  hn,n,c_1,o: 7
+  hn1,n,c_1,ca: 21
+  hn1,n,c_1,cl: 23
+  hn1,n,c_1,o: 22
+  n,c_1,ca,ca: 16
+  o,c_1,tns,tc2: 38
+  o,c_1,tns,thn: 37
+  tc,tcc,tc2,tns: 41
+  tc2,tcc,tc,tcc: 29
+  ca,c_1,tns,tc2: 35
+  ca,c_1,tns,thn: 36
+  ca,ca,c_1,tns: 34
+  tca,tca,tca,tca: 32
+  tca,tca,tnu,tc2: 31
+  thn,tnu,tca,tca: 28
+  thn,tnv,tc2,tcc: 27
+  thn,tnv,tc2,th4: 33
+  tnv,tc2,tcc,tc: 30
+  thn,tns,tc2,tcc: 42
+  thn,tns,tc2,th4: 43
+impropers:
+  c,cl,ca,o: 2
+  c_1,o,n,ca: 4
+  c_1,o,ca,tns: 7
+  ca,ca,ca,c_1: 9
+  ca,ha,ca,ca: 3
+  n,hn1,c_1,ca: 1
+  tc,to,tcc,tcc: 5
+  tc2,tcc,th4,tnv: 6
+  tns,tc2,thn,c_1: 8
+  tc2,tcc,th4,tns: 10
