@@ -24,6 +24,8 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+.codex
+.claude
 
 # LAMMPS/IPS runtime outputs
 outdirs/
