@@ -1,7 +1,11 @@
+<p align="right">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
+</p>
+
 # Welcome to IPS!
 
 <p align="center">
-  <img src="assets/ips-logo.svg" alt="IPS logo" width="900">
+  <img src="assets/ips-logo.svg" alt="IPS logo" width="620">
 </p>
 
 # Quick Start
@@ -327,4 +331,4 @@ If you use this software in your work, please cite:
 
 # License
 
-Licensed under the GNU General Public License v3.0. See `LICENSE`.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See [LICENSE](LICENSE) for details.

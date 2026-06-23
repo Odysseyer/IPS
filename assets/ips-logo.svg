@@ -1,31 +1,31 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">IPS logo</title>
   <desc id="desc">Horizontal white-background logo for Interfacial Polymerization Simulator with IPS lettering, molecular bonds, and an interfacial reaction line.</desc>
-  <rect width="1600" height="420" rx="0" fill="#FFFFFF"/>
+  <rect width="1600" height="420" fill="#FFFFFF"/>
 
-  <path d="M120 220C260 174 400 174 540 220C680 266 820 266 960 220C1100 174 1240 174 1380 220C1420 233 1454 238 1480 238" stroke="#9FC7C2" stroke-width="16" stroke-linecap="round"/>
-  <path d="M120 258C260 212 400 212 540 258C680 304 820 304 960 258C1100 212 1240 212 1380 258C1420 271 1454 276 1480 276" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 226C290 180 430 180 570 226C710 272 850 272 990 226C1130 180 1270 180 1410 226" stroke="#9FC7C2" stroke-width="15" stroke-linecap="round"/>
+  <path d="M150 260C290 214 430 214 570 260C710 306 850 306 990 260C1130 214 1270 214 1410 260" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
 
   <g stroke="#263238" stroke-width="10" stroke-linecap="round">
-    <path d="M245 106L324 58"/>
-    <path d="M347 61L452 111"/>
-    <path d="M1120 85L1212 137"/>
-    <path d="M1238 148L1328 100"/>
+    <path d="M292 108L370 62"/>
+    <path d="M392 64L492 112"/>
+    <path d="M1088 112L1180 164"/>
+    <path d="M1206 166L1296 116"/>
   </g>
-  <circle cx="224" cy="118" r="20" fill="#12A7A7"/>
-  <circle cx="344" cy="51" r="15" fill="#12A7A7"/>
-  <circle cx="475" cy="122" r="18" fill="#D9A441"/>
-  <circle cx="1098" cy="73" r="18" fill="#12A7A7"/>
-  <circle cx="1231" cy="148" r="15" fill="#D9A441"/>
-  <circle cx="1348" cy="88" r="19" fill="#12A7A7"/>
+  <circle cx="272" cy="120" r="20" fill="#12A7A7"/>
+  <circle cx="390" cy="56" r="15" fill="#12A7A7"/>
+  <circle cx="512" cy="122" r="18" fill="#D9A441"/>
+  <circle cx="1068" cy="100" r="18" fill="#12A7A7"/>
+  <circle cx="1198" cy="165" r="15" fill="#D9A441"/>
+  <circle cx="1318" cy="104" r="19" fill="#12A7A7"/>
 
   <g fill="#263238">
-    <path d="M245 114H303V315H245V114Z"/>
-    <path d="M374 114H520C559 114 591 125 615 147C639 168 651 197 651 231C651 265 639 294 615 315C591 337 559 348 520 348H432V315H520C541 315 558 308 570 295C582 282 588 260 588 231C588 202 582 181 570 168C558 155 541 148 520 148H432V315H374V114Z"/>
-    <path d="M727 257C746 276 770 291 800 302C830 313 861 318 894 318C929 318 957 313 978 303C999 292 1010 277 1010 258C1010 241 1000 228 981 218C963 208 931 199 886 190C834 180 796 166 771 148C746 130 734 106 734 77C734 45 751 19 785 0H880C858 2 839 8 824 17C804 29 794 45 794 65C794 82 803 95 821 105C839 115 870 124 914 132C971 143 1012 159 1038 181C1064 203 1077 231 1077 265C1077 300 1061 328 1030 349C999 370 955 381 899 381C855 381 814 374 777 359C740 344 709 323 684 296L727 257Z"/>
+    <path d="M300 128H350V300H300V128Z"/>
+    <path d="M428 128H540C576 128 605 138 627 158C649 178 660 204 660 236C660 268 649 294 627 314C605 334 576 344 540 344H484V300H536C558 300 575 295 588 284C601 273 608 257 608 236C608 215 601 199 588 188C575 177 558 172 536 172H484V300H428V128Z"/>
+    <path d="M735 272C754 288 778 301 807 310C836 319 866 324 898 324C931 324 958 319 978 308C998 297 1008 283 1008 266C1008 250 999 238 980 229C962 220 931 211 888 202C837 191 799 177 774 158C749 139 736 113 736 82C736 58 754 32 790 20H895C862 22 836 29 817 42C799 54 790 70 790 90C790 107 799 120 817 130C835 140 866 149 910 158C967 150 1008 168 1034 191C1060 214 1073 243 1073 278C1073 314 1057 343 1024 364C991 385 949 396 897 396C851 396 811 389 775 376C739 363 709 344 686 320L735 272Z"/>
   </g>
 
-  <path d="M132 348H1468" stroke="#12A7A7" stroke-width="12" stroke-linecap="round" stroke-dasharray="1 34"/>
-  <circle cx="132" cy="348" r="15" fill="#12A7A7"/>
-  <circle cx="1468" cy="348" r="15" fill="#D9A441"/>
+  <path d="M180 344H1420" stroke="#12A7A7" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 34"/>
+  <circle cx="180" cy="344" r="14" fill="#12A7A7"/>
+  <circle cx="1420" cy="344" r="14" fill="#D9A441"/>
 </svg>
