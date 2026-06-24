@@ -5,7 +5,7 @@
 # Welcome to IPS!
 
 <p align="center">
-  <img src="assets/ips-logo.svg" alt="IPS logo" width="620">
+  <img src="assets/ips-logo.png" alt="IPS logo" width="420">
 </p>
 
 # Quick Start
