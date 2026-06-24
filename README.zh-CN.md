@@ -1,11 +1,11 @@
-<p align="right">
-  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
-</p>
-
 # 欢迎使用 IPS！
 
 <p align="center">
   <img src="assets/ips-logo.png" alt="IPS logo" width="420">
+</p>
+
+<p align="right">
+  <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
 # 快速开始
