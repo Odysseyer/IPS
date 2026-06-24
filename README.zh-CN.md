@@ -1,10 +1,10 @@
 # 欢迎使用 IPS！
 
 <p align="center">
-  <img src="assets/ips-logo.png" alt="IPS logo" width="420">
+  <img src="assets/ips-logo.png" alt="IPS logo" width="760">
 </p>
 
-<p align="right">
+<p align="center">
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
